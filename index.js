@@ -67,10 +67,10 @@ function ratingsHTML(rating) {
   return ratingHTML;
 }
 
-function filterBooks(event) {
-  renderBooks(event.target.value);
+function filterBooks() {
+  const filter = document.getElementById('filter').value;
+  renderBooks(filter);
 }
-
 setTimeout(() => {
   renderBooks();
 });
