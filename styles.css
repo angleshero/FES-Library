@@ -28,6 +28,17 @@ p {
   line-height: 1.5;
 }
 
+.books__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+}
+
+.books__header--title {
+  margin-bottom: 0;
+}
+
 a {
   text-decoration: none;
 }
@@ -82,6 +93,8 @@ button:active {
 .logo {
   width: 160px;
 }
+
+
 
 .nav__container {
   width: 100%;
